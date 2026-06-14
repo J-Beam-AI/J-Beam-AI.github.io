@@ -813,6 +813,33 @@
     .project-link:hover { gap: 9px; color: var(--accent); }
 
     /* ============================================================
+       7b. SURVEY / FEEDBACK ASK
+    ============================================================ */
+    #survey {
+      padding: 84px 0;
+      background: linear-gradient(135deg, rgba(15,122,229,0.06), rgba(15,122,229,0.02));
+      border-top: 1px solid rgba(15,122,229,0.12);
+      border-bottom: 1px solid rgba(15,122,229,0.12);
+    }
+
+    .survey-inner {
+      max-width: 680px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .survey-inner .section-heading { color: var(--navy); }
+    .survey-inner .section-divider { margin: 0.6rem auto 1.4rem; }
+
+    .survey-text {
+      font-size: 1.05rem;
+      color: #4a5568;
+      line-height: 1.8;
+      margin: 0 auto 2rem;
+      max-width: 620px;
+    }
+
+    /* ============================================================
        8. TESTIMONIALS
     ============================================================ */
     #testimonials {
@@ -1677,6 +1704,22 @@
               <a class="project-link" href="https://grocery-pathfinder.vercel.app/" target="_blank" rel="noopener">Try the live app <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SURVEY ===================== -->
+    <section id="survey" aria-labelledby="survey-heading">
+      <div class="container">
+        <div class="survey-inner animate-on-scroll">
+          <h2 id="survey-heading" class="section-heading">What's Your Biggest Frustration?</h2>
+          <div class="section-divider"></div>
+          <p class="survey-text">
+            Running a trades or home services business means juggling a hundred things at once. I'm researching what frustrates local business owners the most about their day-to-day operations, and your answer helps me build the right solutions. Five questions, about two minutes.
+          </p>
+          <a href="https://forms.gle/Y4SVtQjGKvq9QyLe8" class="btn btn-primary" target="_blank" rel="noopener">
+            Take the Quick Survey <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </section>
